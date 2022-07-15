@@ -11,7 +11,6 @@ public class BucketErrorCheckingTest {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.driver.chrome", "chromedriver");
         HomePage homePage = new HomePage();
         homePage.openPage().clickGoToWear();
 
